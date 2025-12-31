@@ -32,3 +32,15 @@ p span {
     opacity: 0.9;
     margin-left: 8px;
 }
+
+h1 {
+    font-size: 80px;
+}
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+        word-wrap: break-word; 
+    }
+}
